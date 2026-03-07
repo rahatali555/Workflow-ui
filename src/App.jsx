@@ -1,7 +1,7 @@
 import react from "react";
 import {
   createRoot} from "react-dom/client";
-  const rooot= createRoot(document.querySelector("#root")).render(
+  const root= createRoot(document.querySelector("#root")).render(
     <ul> 
       <li>react</li>
         <li>react</li>
