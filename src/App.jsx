@@ -1,11 +1,10 @@
-function App(){
-  return (
-    <div style={{
-      padding:20,
-       fontFamily: "sans-serif"
-    }}>
-      <h1>Workflow Builder</h1>
-    </div>
+import react from "react";
+import {
+  createRoot} from "react-dom/client";
+  const rooot= createRoot(document.querySelector("#root")).render(
+    <ul> 
+      <li>react</li>
+        <li>react</li>
+          <li>react</li>
+    </ul>
   )
-}
-export default App
